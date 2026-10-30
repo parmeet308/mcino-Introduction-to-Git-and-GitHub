@@ -26,4 +26,3 @@ echo "The simple interest is: "
 echo $s
 
 
- # Here is a new update by parmeet308
