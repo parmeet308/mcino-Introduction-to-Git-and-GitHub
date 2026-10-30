@@ -1,0 +1,5 @@
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -vv
+* bug-fix-revert 6f4182e [origin/bug-fix-revert] reverted
+  bug-fix-typo   1e74dca [origin/bug-fix-typo] Fix README footer year from 2022 to 2023
+  main           1e74dca [origin/main: ahead 1] Fix README footer year from 2022 to 2023
+  practice       b1131b5 [origin/practice] reverted
