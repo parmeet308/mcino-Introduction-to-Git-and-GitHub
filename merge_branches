@@ -1,0 +1,43 @@
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git diff -- READM
+E.md
+diff --git a/README.md b/README.md
+index b103466..2868752 100644
+--- a/README.md
++++ b/README.md
+@@ -13,4 +13,5 @@ Output
+    simple interest = p*t*r
+ ```
+ 
+-_<C2><A9> 2022 XYZ, Inc._
++_<C2><A9> 2023 XYZ, Inc.
++
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git add .
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git commit -m "Fix README footer year from 2022 to 2023"
+[bug-fix-typo 1e74dca] Fix README footer year from 2022 to 2023
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push -u origin bug-fix-typo
+Username for 'https://github.com': parmeet308
+Password for 'https://parmeet308@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
+remote:      https://github.com/parmeet308/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-typo
+remote: 
+To https://github.com/parmeet308/mcino-Introduction-to-Git-and-GitHub.git
+ * [new branch]      bug-fix-typo -> bug-fix-typo
+Branch 'bug-fix-typo' set up to track remote branch 'bug-fix-typo' from 'origin'.
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
+Updating ad95b0a..1e74dca
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+theia@theia-parmeetkour2:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
